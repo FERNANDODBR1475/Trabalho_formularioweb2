@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forulário</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+
+<body>
+    <div class="caixa">
+        <form action="https://sig.ifrs.edu.br/sigaa/portais/discente/discente.jsf" method="post">
+            <fieldset>
+                <legend><b>Formulario de Cadastro</b></legend>
+                <div class="caixaddeinput">
+                    <label for="nome" class="labelinput">Nome:</label>
+                    <br>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" class="inpustdousuario">
+                </div>
+
+                <br>
+                <br>
+
+                <div class="caixaddeinput">
+                    <label for="cpf" class="labelinput">CPF:</label>
+                    <br>
+                    <input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF" class="inpustdousuario">
+                </div>
+
+                <br>
+                <br>
+
+                <div class="caixaddeinput">
+                    <label for="celular" class="labelinput">Celular:</label>
+                    <br>
+                    <input type="text" id="celular" name="celular" placeholder="Digite seu número de celular" class="inpustdousuario">
+                </div>
+
+                <br>
+                <br>
+
+                <div class="caixaddeinput">
+                    <label for="email" class="labelinput">Email:</label>
+                    <br>
+                    <input type="email" id="email" name="email" placeholder="Digite seu email" class="inpustdousuario">
+                </div>
+
+                <br>
+                <br>
+
+                <div class="caixaddeinput">
+                    <label for="endereco" class="labelinput">Endereço:</label>
+                    <br>
+                    <input type="text" id="endereco" name="endereco" placeholder="Digite seu endereço" class="inpustdousuario">
+                </div>
+
+                <br>
+                <br>
+
+                <input type="submit" name="submit" id="enviar">
+            
+        </form>
+        <br>
+        <br>
+        <p id="msg" class="message"></p>
+    </fieldset>
+    </div>
+
+    <script src="js/js.js"></script>
+</body>
+
+</html>
